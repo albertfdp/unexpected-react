@@ -5427,10 +5427,9 @@ react-is@^16.6.0:
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.6.0.tgz#456645144581a6e99f6816ae2bd24ee94bdd0c01"
   integrity sha512-q8U7k0Fi7oxF1HvQgyBjPwDXeMplEsArnKt2iYhuIF86+GBbgLHdAmokL3XUFjTd7Q363OSNG55FOGUdONVn1g==
 
-react-render-hook@^1.1.1:
+"react-render-hook@github:albertfdp/react-render-hook#f753d53":
   version "1.1.1"
-  resolved "https://registry.yarnpkg.com/react-render-hook/-/react-render-hook-1.1.1.tgz#5ddc5de40945269c1d33acf1c619f2a04218cc4f"
-  integrity sha512-LuROQTufFqzLpcHHHtmT+Svrlx6YYUbVpmB6YQTO0ZNi/Jc9a6LnBMlHpCThHaeA32t/7rkFT7PyP8G8OdWxWw==
+  resolved "https://codeload.github.com/albertfdp/react-render-hook/tar.gz/f753d5374a8009e7359f16c94f98723bec15edf0"
   dependencies:
     fbjs "^1.0.0"
     semver "^5.5.1"
@@ -6539,13 +6538,12 @@ unexpected-htmllike-raw-adapter@^1.0.1:
   dependencies:
     object-assign "^4.0.1"
 
-unexpected-htmllike-reactrendered-adapter@^3.0.4:
+unexpected-htmllike-reactrendered-adapter@albertfdp/unexpected-htmllike-reactrendered-adapter#b156692:
   version "3.0.4"
-  resolved "https://registry.yarnpkg.com/unexpected-htmllike-reactrendered-adapter/-/unexpected-htmllike-reactrendered-adapter-3.0.4.tgz#fae13df65bcc3a2f8b8fe2f75f601df8565f3c8b"
-  integrity sha512-0/uAh17V4aNQkCb4jx/QJm3hNBdzYsqSz+U6543YvFm8b0MeZRk4jRrqdOv59uOlBzh4+avtBTiP7yNZamgl4g==
+  resolved "https://codeload.github.com/albertfdp/unexpected-htmllike-reactrendered-adapter/tar.gz/b156692e594d50eabf1e60603c75cddee0cdca32"
   dependencies:
     object-assign "^4.0.1"
-    react-render-hook "^1.1.1"
+    react-render-hook "github:albertfdp/react-render-hook#f753d53"
 
 unexpected-htmllike-testrenderer-adapter@^1.0.2:
   version "1.0.2"
